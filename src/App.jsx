@@ -29,10 +29,6 @@ function App() {
     const range = window.getSelection().getRangeAt(0);
     const span = document.createElement('span');
 
-    console.log(range);
-    console.log(window.getSelection());
-    console.log(window.getSelection().anchorNode);
-
     const { startOffset: start, endOffset: end } = range;
     if (range.commonAncestorContainer.length === end - start) {
 
