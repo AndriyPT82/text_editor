@@ -1,0 +1,18 @@
+.text-field {
+  border: 1px solid #000;
+  border-radius: 2px;
+
+  // min-height: 100px;
+  background-color: rgb(255, 255, 255);
+
+  & span {
+    outline: none;
+    -webkit-user-select: none;
+
+    &::selection {
+      // text-shadow: ;
+    }
+  }
+
+  
+}
